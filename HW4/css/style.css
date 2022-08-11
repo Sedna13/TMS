@@ -1,0 +1,61 @@
+boby{
+   margin: 0;
+}
+
+.wrapper {
+   width: 900px;
+   height: 200px;
+   background: #FFFFFF;
+   border: 1px solid rgb(255, 255, 255);
+   margin: 100px auto 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flex__block {
+   width: 90%;
+	height: 200px;
+   background: #FFFFFF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cart{
+   box-sizing: border-box;
+   width: 400px;
+   height: 200px;
+   background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   line-height: 30px;
+   font-family: 'Hind Siliguri', sans-serif;
+}
+.text__1{
+   font-family: 'Hind Siliguri';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 27px;
+   color: #F4F9FC;
+   opacity: 0.6;
+}
+
+.text__2{
+   font-family: 'Hind Siliguri';
+   font-weight: 600;
+   font-size: 31px;
+   line-height: 40px;
+   color: #F4F9FC;
+}
+
+.text__3{
+   font-family: 'Hind Siliguri';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 27px;
+   color: #F4F9FC;
+}
