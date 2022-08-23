@@ -1,4 +1,4 @@
-.header{
+.banner__element {
    width: 100%;
    height: 75px;
    background-color: black;
@@ -7,15 +7,21 @@
    align-items: center;
 }
 
-.header__nav{
+.banner a{
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+.banner__main {
    width: 1000px;
    height: 75px;
    display: inline-flex;
    justify-content: space-around;
    align-items: center;
+   
 }
 
-.header__block{
+.banner__item {
    width: 150px;
    height: 75px;
    display: flex;
@@ -23,23 +29,41 @@
    align-items: center;
 }
 
-.header__menu{
+.banner__navigation {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 600;
    font-size: 14px;
    line-height: 19px;
    color: #FFFFFF;
+   
 }
 
-.banner__info{
+.banner__navigation:hover {
+   width: 65px;
+   height: 75px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   background: #EC7979;
+   color: #FFFFFF;
+}
+
+.banner__navigation:active {
+   background: #AB4949;
+   border: 2px solid #AB4949;
+   color: #FFFFFF;
+}
+
+.banner__info {
    position: relative;
    display: flex;
    justify-content: center;
    justify-items: center;
 }
 
-.banner__title{
+.banner__title {
    width: 650px;
    height: 500px;
    position: absolute;
@@ -48,7 +72,7 @@
    left: 30%;
 }
 
-.banner__title h1{
+.banner__title h1 {
    font-family: 'Raleway';
    font-weight: 500;
    font-size: 48px;
@@ -62,7 +86,7 @@
    background-color: #FFFFFF;
 }
 
-.banner__title h5{
+.banner__title h5 {
    font-family: 'Raleway';
    font-weight: 400;
    font-size: 18px;
@@ -81,7 +105,20 @@
    color: #FFFFFF;
 }
 
-.banner__name{
+.banner__button:hover {
+   border: 2px solid #EC7979;
+   color: #EC7979;
+   cursor: pointer;
+}
+
+.banner__button:active {
+   background: #AB4949;
+   border: 2px solid #AB4949;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
+.banner__name {
    width: 470px;
    height: 450px;
    background-color: white;
@@ -92,7 +129,7 @@
    border-radius: 5px;
 }
 
-.banner__name h4{
+.banner__name h4 {
    font-family: 'Open Sans';
    font-weight: 700;
    font-size: 24px;
@@ -101,11 +138,11 @@
    color: #333333;
 }
 
-.banner__name span{
+.banner__name span {
    color: #EC7979;
 }
 
-.banner__text{
+.banner__text {
    font-family: 'Open Sans';
    font-weight: 400;
    font-size: 14px;
@@ -116,31 +153,43 @@
 }
 
 .banner__underline {
-   width: 370px;
+   width: 300px;
    height: 1px;
    background-color: #BDBDBD;
    margin: 30px;
 }
 
-.banner__reg{
+.banner__reg {
    width: 470px;
    height: 60px;
+   margin-top: 30px;
    background: #EC7979;
    border: 1px solid #EC7979;
    font-family: 'Open Sans';
    font-weight: 600;
    font-size: 18px;
    color: #FFFFFF;
-
 }
 
-.banner__image{
-   width: 1510px;
-   height: 1026px;
+.banner__reg:hover {
+   background: #AB4949;
+   border: 1px solid #AB4949;
+   cursor: pointer;
+}
+
+.banner__reg:active {
+   background: #EC7979;
+   box-shadow: inset 0px 0px 10px #AB4949;
+   cursor: pointer;
+}
+
+.banner__image {
+   width: 100%;
+   height: 100%;
    filter: brightness(90%);
 }
 
-.banner__media{
+.banner__media {
    width: 100%;
    height: 140px;
    background-color: #F8EFEF;
@@ -149,11 +198,11 @@
    align-items: center;
 }
 
-.banner__block{
+.banner__block {
    margin-left: 80px;
 }
 
-.banner__block h4{
+.banner__block h4 {
    font-family: 'Open Sans';
    font-weight: 700;
    font-size: 24px;
@@ -161,7 +210,7 @@
    color: #333333;
 }
 
-.banner__block h5{
+.banner__block h5 {
    font-family: 'Raleway';
    font-weight: 400;
    font-size: 18px;
@@ -169,10 +218,26 @@
    color: #86878B;
 }
 
-.banner__icons{
+.banner__icons {
    width: 1000px;
    height: 140px;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
+}
+
+.registration {
+   margin: 30px;
+   width: 400px;
+   border: 0;
+   border-bottom-width: 1px;
+   /* Толщина линии внизу */
+   border-bottom-style: solid;
+   /* Стиль линии внизу */
+   border-bottom-color: #BDBDBD;
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #BDBDBD;
 }

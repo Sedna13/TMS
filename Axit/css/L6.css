@@ -1,0 +1,19 @@
+
+p *:first-child{
+   color: red;
+}
+p *:last-child{
+   color: green;
+}
+
+article::after{
+   content:":конец!";
+   color: aqua;
+
+}
+
+article::before{
+   content:"Начало:";
+   color: red;
+
+}

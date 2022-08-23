@@ -58,3 +58,16 @@
    left: 50%;
    transform: translate(-50%, -50%);
 }
+
+.design__button:hover{
+   border: 2px solid #EC7979;
+   color: #EC7979;
+   cursor: pointer;
+}
+
+.design__button:active{
+   background: #AB4949;
+   border: 2px solid #AB4949;
+   color: #FFFFFF;
+   cursor: pointer;
+}

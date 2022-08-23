@@ -5,15 +5,14 @@
    padding-top: 50px;
 }
 
-.pricing__block {
-}
+.pricing__block {}
 
-.block__hr{
+.block__hr {
    width: 170px;
    height: 1px;
    background-color: #EC7979;
    margin: 0 auto;
-   }
+}
 
 .columns__cards {
    width: 100%;
