@@ -4,6 +4,9 @@
    height: 442px;
    position: relative;
    text-align: center;
+}
+
+.design__image{
    filter: brightness(80%);
 }
 

@@ -1,8 +1,39 @@
+@keyframes bounce {
+
+   0%, 20%, 60%, 100% {
+      transform: translateY(0);
+      transform: translateY(0);
+   }
+
+   40% {
+      transform: translateY(-20px);
+      transform: translateY(-20px);
+   }
+
+   80% {
+      transform: translateY(-10px);
+      transform: translateY(-10px);
+   }
+}
+
+.columns__structure:hover {
+   animation: bounce 2s;
+}
+
 .pricing {
    width: 100%;
    margin: 0 auto;
    background-color: #F5F5F5;
    padding-top: 50px;
+}
+
+.pricing__columns {
+   display: flex;
+   justify-content: center;
+}
+
+.pricing__info {
+   width: 1170px;
 }
 
 .pricing__block {}

@@ -148,6 +148,8 @@
 }
 
 .tabs>label {
+   width: 150px;
+   height: 30px;
    display: inline-block;
    text-align: center;
    vertical-align: middle;
@@ -244,10 +246,12 @@
 }
 
 .tabs__block {
-   width: 560px;
+   width: 570px;
    height: 500px;
    background-color: #FFFFFF;
+   padding-left: 80px;
 }
+
 
 .tabs__block img {
    width: 470px;
