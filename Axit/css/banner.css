@@ -13,7 +13,7 @@
 }
 
 .banner__main {
-   width: 1000px;
+   width: 60%;
    height: 75px;
    display: inline-flex;
    justify-content: space-around;
@@ -201,6 +201,7 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
+   margin-bottom: 30px;
 }
 
 .banner__block {
