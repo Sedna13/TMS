@@ -18,3 +18,74 @@ body {
     margin: 0 auto;
     min-width: 1170px;
 }
+
+@media (max-width:1024px){
+    .banner{
+        width: 90%;
+    }
+    .banner__media{
+        width: 90%;
+    }
+    .tabs{
+        width: 90%;
+    }
+    .awesome{
+        width: 90%;
+    }
+    .pricing{
+        width: 90%;
+    }
+    .customers{
+        width: 90%;
+    }
+    .design{
+        width: 90%;
+    }
+    .contact{
+        width: 90%;
+    }
+    .footer{
+        width: 90%;
+    }
+}
+@media (max-width:320px){
+    .banner__main{
+        display: none;
+    }
+    .banner__info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner__title{
+
+    }
+    .banner{
+        width: 90%;
+    }
+    .banner__media{
+        width: 60%;
+    }
+    .tabs{
+        width: 60%;
+    }
+    .awesome{
+        width: 60%;
+    }
+    .pricing{
+        width: 60%;
+    }
+    .customers{
+        width: 60%;
+    }
+    .design{
+        width: 60%;
+    }
+    .contact{
+        width: 60%;
+    }
+    .footer{
+        width: 60%;
+    }
+}
