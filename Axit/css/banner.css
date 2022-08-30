@@ -247,3 +247,7 @@
    line-height: 19px;
    color: #BDBDBD;
 }
+
+input:focus {
+   outline: none;
+}

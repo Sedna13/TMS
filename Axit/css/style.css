@@ -16,76 +16,94 @@ body {
     width: 100%;
     background-color: #FFFFFF;
     margin: 0 auto;
-    min-width: 1170px;
+
 }
 
-@media (max-width:1024px){
-    .banner{
+@media (max-width:1024px) {
+    .banner {
         width: 90%;
     }
-    .banner__media{
+
+    .banner__media {
         width: 90%;
     }
-    .tabs{
+
+    .tabs {
         width: 90%;
     }
-    .awesome{
+
+    .awesome {
         width: 90%;
     }
-    .pricing{
+
+    .pricing {
         width: 90%;
     }
-    .customers{
+
+    .customers {
         width: 90%;
     }
-    .design{
+
+    .design {
         width: 90%;
     }
-    .contact{
+
+    .contact {
         width: 90%;
     }
-    .footer{
+
+    .footer {
         width: 90%;
     }
 }
-@media (max-width:320px){
-    .banner__main{
+
+@media (max-width:320px) {
+    .banner__main {
         display: none;
     }
-    .banner__info{
+
+    .banner__info {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    .banner__title{
 
-    }
-    .banner{
+    .banner__title {}
+
+    .banner {
         width: 90%;
     }
-    .banner__media{
+
+    .banner__media {
         width: 60%;
     }
-    .tabs{
+
+    .tabs {
         width: 60%;
     }
-    .awesome{
+
+    .awesome {
         width: 60%;
     }
-    .pricing{
+
+    .pricing {
         width: 60%;
     }
-    .customers{
+
+    .customers {
         width: 60%;
     }
-    .design{
+
+    .design {
         width: 60%;
     }
-    .contact{
+
+    .contact {
         width: 60%;
     }
-    .footer{
+
+    .footer {
         width: 60%;
     }
 }

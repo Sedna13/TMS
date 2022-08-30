@@ -92,3 +92,7 @@
    line-height: 19px;
    color: #BDBDBD;
 }
+
+textarea:focus{
+   outline: none;
+}

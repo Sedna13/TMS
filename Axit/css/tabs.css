@@ -167,7 +167,7 @@
 }
 
 .tabs>label:not(:first-of-type) {
-   border-left: none;
+   margin-left: -5px;
 }
 
 .tabs>input[type="radio"]:checked+label {
