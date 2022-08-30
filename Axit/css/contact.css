@@ -52,7 +52,7 @@
 }
 
 .contact__button {
-   width: 270px;
+   width: 318px;
    height: 58px;
    background: #EC7979;
    border: 1px solid #EC7979;
@@ -93,6 +93,6 @@
    color: #BDBDBD;
 }
 
-textarea:focus{
+textarea:focus {
    outline: none;
 }
