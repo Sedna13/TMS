@@ -1,0 +1,98 @@
+.contact {
+   width: 1170px;
+   background-color: #FFFFFF;
+   margin: 0 auto;
+}
+
+.contact__hr {
+   width: 170px;
+   height: 1px;
+   background-color: #EC7979;
+   margin: 0 auto;
+}
+
+.contact__title h2 {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   color: #000000;
+}
+
+.contact__title h5 {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #86878B;
+}
+
+.contact__us {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.contact__info {
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #BDBDBD;
+   margin-top: 40px;
+}
+
+.contact__underline {
+   width: 571px;
+   height: 1px;
+   background-color: #BDBDBD;
+   margin: 0 auto;
+}
+
+.contact__button {
+   width: 318px;
+   height: 58px;
+   background: #EC7979;
+   border: 1px solid #EC7979;
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 18px;
+   color: #FFFFFF;
+}
+
+.contact__button:hover {
+   background: #AB4949;
+   border: 1px solid #AB4949;
+   cursor: pointer;
+}
+
+.contact__button:active {
+   background: #EC7979;
+   box-shadow: inset 0px 0px 10px #AB4949;
+   cursor: pointer;
+}
+
+.contact button {
+   margin: 0 auto;
+   display: block;
+}
+
+.contact__block {
+   padding: 50px;
+}
+
+.info {
+   width: 571px;
+   border: 0;
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #BDBDBD;
+}
+
+textarea:focus {
+   outline: none;
+}
