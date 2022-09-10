@@ -1,9 +1,4 @@
-@media  (min-width: 1024px) and (max-width: 1400px){
-
-
-
-
-
+@media  (max-width: 1024px) {
 
    .banner__element {
       width: 100%;
