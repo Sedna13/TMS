@@ -74,3 +74,63 @@
    font-size: 18px;
    color: black;
 }
+
+@media (max-width: 1024px) {
+   .blok {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+   }
+
+   .blok h2 {
+      font-size: 24px;
+   }
+
+   .block__hr {
+      width: 142px;
+   }
+
+   .blok h5 {
+      font-size: 14px;
+   }
+
+   .block__icons {
+
+   }
+
+   .icon__block {
+
+   }
+
+   .icon__cards {
+      width: 318px;
+   }
+
+   .icon__block__title {
+      font-size: 18px;
+   }
+
+   .description {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 320px) {
+   .icon__block {
+      display: block;
+   }
+
+   .blok h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+   }
+
+   .block__hr {
+      width: 134px;
+   }
+
+   .blok h5 {
+      font-size: 13px;
+      margin-top: 20px;
+   }  
+}

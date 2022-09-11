@@ -6,16 +6,11 @@
 @import "./contact.css";
 @import "./footer.css";
 @import "./banner.css";
-@import "./breakpoint.css";
-@import "./mobile.css";
-
 
 body {
-    /*
-    margin: 0;
-    */
     width: 100%;
     background-color: #FFFFFF;
     margin: 0 auto;
-
 }
+
+

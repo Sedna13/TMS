@@ -150,3 +150,36 @@
    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
+
+@media  (max-width: 1024px) {
+
+}
+
+@media (max-width: 320px){
+   .columns__cards {
+      display: block;
+   }
+
+   .pricing__block h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+   }
+
+   .block__hr {
+      width: 134px;
+      margin-bottom: 20px;
+   }
+   .pricing__block {
+   }
+
+   .columns__structure:hover{
+      animation: none;
+   }
+   .pricing__block h5 {
+      margin-bottom: 20px;
+   }
+
+   .pricing__columns{
+      margin-bottom: 30px;
+   }
+}

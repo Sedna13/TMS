@@ -1,18 +1,17 @@
 .design {
    padding-top: 50px;
    width: 100%;
-   height: 100%;
    height: 442px;
    position: relative;
    text-align: center;
 }
 
-.design__image{
+.design__image {
    width: 100%;
    filter: brightness(80%);
 }
 
-img{
+img {
    width: 100%;
 }
 
@@ -68,15 +67,85 @@ img{
    transform: translate(-50%, -50%);
 }
 
-.design__button:hover{
+.design__button:hover {
    border: 2px solid #EC7979;
    color: #EC7979;
    cursor: pointer;
 }
 
-.design__button:active{
+.design__button:active {
    background: #AB4949;
    border: 2px solid #AB4949;
    color: #FFFFFF;
    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+   .design {
+      margin-top: 30px;
+      height: 320px;
+   }
+
+   .design__text h2 {
+      font-size: 24x;
+   }
+
+   .design__hr {
+      width: 142px;
+   }
+
+   .design__text h5 {
+      font-size: 14px;
+   }
+
+   .design__button {
+      font-size: 18px;
+   }
+}
+
+@media (max-width: 320px) {
+   .design {
+      padding-top: 0px;
+      width: 100%;
+      height: 368px;
+   }
+
+   .wrapper {
+      margin-bottom: 70px;
+   }
+
+   .design__image img {
+      display: none;
+   }
+
+   .design__image {
+      background-image: url(../img/mobile_design.jpg);
+      background-position: center;
+      height: 100%;
+      position: absolute;
+   }
+
+   .design__text h2 {
+      font-size: 24x;
+   }
+
+   .design__text_hr {
+      width: 134px;
+   }
+
+   .design__text h5 {
+      font-size: 14px;
+      transform: translate(-50%, -15%);
+   }
+
+   .design__button {
+      width: 287px;
+      height: 50px;
+      font-size: 18px;
+      transform: translate(-50%, 0%);
+   }
+
+   .design__text {
+      width: 320px;
+   }
 }

@@ -96,3 +96,87 @@
 textarea:focus {
    outline: none;
 }
+
+@media (max-width: 1024px) {
+   .contact {
+      width: 100%;
+      padding-top: 50px;
+   }
+
+   .contact__hr {
+      margin-top: 20px;
+      width: 144px;
+   }
+
+   .contact__title h2 {
+      font-size: 24px;
+   }
+
+   .contact__title h5 {
+      margin-top: 20px;
+      font-size: 14px;
+   }
+
+   .contact__us {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+   }
+
+   .contact__info {
+      font-weight: 320;
+   }
+
+   .contact__underline {
+      width: 486px;
+   }
+
+   .contact__button {
+      width: 318px;
+      height: 58px;
+      font-size: 18px;
+   }
+
+
+   .contact button {
+      margin: 0 auto;
+      display: block;
+   }
+
+   .contact__block {
+      padding: 50px;
+   }
+
+   .info {
+      width: 486px;
+   } 
+}
+   
+@media (max-width: 320px) {
+   .contact__us {
+      display: block;
+   }
+
+   .contact__title {
+      margin-top: 30px;
+      text-align: center;
+   }
+
+   .contact__underline {
+      width: 288px;
+   }
+
+   .contact__message {
+      margin-left: 20px;
+   }
+
+   .contact__click {
+      padding-top: 40px;
+      margin-left: 10px;
+   }  
+   .contact__block {
+      padding: 20px;
+   }
+
+}
+
