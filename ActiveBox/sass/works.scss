@@ -1,0 +1,126 @@
+.works {
+   width: 100%;
+   margin-bottom: 70px;
+
+   .images {
+      margin-top: -20px;
+      width: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+
+      .cards {
+         width: 378px;
+      }
+
+      .cards_red {
+
+         .text {
+            display: none;
+
+         }
+
+         .about {
+            display: none;
+         }
+
+         width: 378px;
+         background: url(../img/work_3.jpg) no-repeat;
+         cursor: pointer;
+      }
+
+      .cards_red:hover {
+
+         .text {
+            display: block;
+         }
+
+         .about {
+            display: block;
+         }
+
+         width: 378px;
+         background: url(../img/rectangle17.jpg) no-repeat;
+         background-size: cover;
+
+         .background {
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 67, 67, 0.8);
+
+            .text {
+               padding-top: 120px;
+               font-family: 'Raleway';
+               font-weight: 900;
+               font-size: 24px;
+               text-align: center;
+               color: #FFFFFF;
+            }
+
+            .about {
+               padding-top: 40px;
+               font-family: 'Raleway';
+               font-weight: 400;
+               font-size: 18px;
+               text-align: center;
+               color: #FFFFFF;
+            }
+         }
+      }
+
+      .cards_red:active {
+
+         .background {
+            background: rgba(185, 12, 12, 0.8);
+         }
+      }
+   }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 320px) {
+
+   .works {
+      margin-bottom: 0px;
+
+      .images {
+         display: flex;
+         flex-wrap: wrap;
+
+         .cards {
+            width: 160px;
+         }
+
+         .cards_red {
+            width: 160px;
+         }
+
+         .cards_red:hover {
+            width: 160px;
+
+            .background {
+
+               .text {
+                  padding-top: 50px;
+                  font-size: 18px;
+               }
+
+               .about {
+                  padding-top: 0px;
+                  font-size: 14px;
+               }
+            }
+         }
+
+         .cards_red:active {
+
+            .background {
+               background: rgba(185, 12, 12, 0.8);
+            }
+         }
+      }
+   }
+}   

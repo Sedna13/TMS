@@ -1,0 +1,90 @@
+.works {
+  width: 100%;
+  margin-bottom: 70px;
+}
+.works .images {
+  margin-top: -20px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.works .images .cards {
+  width: 378px;
+}
+.works .images .cards_red {
+  width: 378px;
+  background: url(../img/work_3.jpg) no-repeat;
+  cursor: pointer;
+}
+.works .images .cards_red .text {
+  display: none;
+}
+.works .images .cards_red .about {
+  display: none;
+}
+.works .images .cards_red:hover {
+  width: 378px;
+  background: url(../img/rectangle17.jpg) no-repeat;
+  background-size: cover;
+}
+.works .images .cards_red:hover .text {
+  display: block;
+}
+.works .images .cards_red:hover .about {
+  display: block;
+}
+.works .images .cards_red:hover .background {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 67, 67, 0.8);
+}
+.works .images .cards_red:hover .background .text {
+  padding-top: 120px;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.works .images .cards_red:hover .background .about {
+  padding-top: 40px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.works .images .cards_red:active .background {
+  background: rgba(185, 12, 12, 0.8);
+}
+
+@media (max-width: 320px) {
+  .works {
+    margin-bottom: 0px;
+  }
+  .works .images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .works .images .cards {
+    width: 160px;
+  }
+  .works .images .cards_red {
+    width: 160px;
+  }
+  .works .images .cards_red:hover {
+    width: 160px;
+  }
+  .works .images .cards_red:hover .background .text {
+    padding-top: 50px;
+    font-size: 18px;
+  }
+  .works .images .cards_red:hover .background .about {
+    padding-top: 0px;
+    font-size: 14px;
+  }
+  .works .images .cards_red:active .background {
+    background: rgba(185, 12, 12, 0.8);
+  }
+}/*# sourceMappingURL=works.css.map */

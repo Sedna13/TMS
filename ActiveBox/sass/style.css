@@ -1,0 +1,12 @@
+@import "./banner.css";
+@import "./features.css";
+@import "./works.css";
+@import "./our-team.css";
+@import "./testimonials.css";
+@import "./download.css";
+@import "./footer.css";
+body {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
